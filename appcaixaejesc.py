@@ -9,7 +9,7 @@ st.set_page_config(page_title="Portal Financeiro EJESC", page_icon="🐺", layou
 # --- 2. BANCO DE DADOS (Simulado para Multi-empresa) ---
 USUARIOS_DB = {
     "isa_ejesc": {"senha": "123", "empresa": "EJESC", "id": 1},
-    "cliente_alpha": {"senha": "abc", "empresa": "Cliente Alpha", "id": 2}
+    "cliente_teste": {"senha": "123", "empresa": "Cliente Alpha", "id": 2}
 }
 
 if 'logado' not in st.session_state:
